@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*Encabezado*/
+section#superior
+{
+    background: rgb(178, 178, 245);
+    height: 465px;
+}
+header#cabecera
+{
+  display: block;  
+ margin: auto;
+ width: 940px;
+ height: 98px;
+}
+#cabecera ul
+{
+    float: right;
+    list-style: none;
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    height: 65px;
+    width: 165px;
+}
+#cabecera ul li
+{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top :10px;
+    height: 45px;
+    width: 45px;
+}
+div#logo
+{
+    float: left;
+    height: 50px;
+    margin-top: 25px;
+    width: 188px;
+}
+/*munu*/
+nav{
+    background: white;
+    display: block;
+    height: 45px;
+    margin: auto;
+    padding: 0;
+    width: 940px;
+}
+nav ul
+{
+    display: block;
+    float: left;
+    list-style: none;
+}
+nav li
+{
+    float: left;
+}
+nav a
+{
+    color: rgb(124, 124, 179);
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 19px;
+    height: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover,a:focus
+{
+    background: rgb(126, 126, 221);
+    color: rgb(173, 146, 245);
+    
+}
+#slider
+{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 295px;
+    width: 940px;
+}
+section#contenedor
+{
+    background: rgb(161, 161, 223);
+}
+section#Contenedorinterior
+{
+    background: rgb(139, 139, 221);
+    display: block;
+    margin: auto;
+    width: 940px;
+    background: white;
+}
+section#contenido
+{
+    display: block;
+    float: left;
+    margin-top:10px ;
+    width: 700px;
+    background: white;
+    
+}
+aside
+{
+    display: block;
+    float: left;
+    margin: auto;
+    margin-bottom:10px;
+    margin-top: 10PX;
+    width: 230px;
+    background:rgb(161, 161, 223) ;
+}
+h4
+{
+background: rgb(139, 139, 221);
+color: white;
+vertical-align: middle;
+padding-top: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+height: 35px;
+text-align: center;
+}
+h5
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+p
+{
+    color: rgb(12, 12, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+}
+h2
+{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:28px;
+color:black;
+padding:10px;
+}
+h3
+{
+background: rgb(131, 131, 245);
+vertical-align: middle;
+padding-top: 15px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 16px;
+height: 35px;
+text-align: center;
+}
+.info p
+{
+    color: rgb(107, 107, 185);
+    font-family: monospace;
+    font-size: 15px;
+    padding: 10px;
+}
+#limpiar
+{
+    clear: both;
+}
+.info img 
+{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.info p 
+{
+    display: block;
+    width: 460px;
+    float: right;
+}
+.comoempresa
+{
+    width: 700px;
+    display: block;
+    float: left;
+}
+
+h6
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(42, 42, 245);
+}
+.color
+{
+    background: rgb(192, 192, 245);
+}
+section#inferior
+{
+    background: rgb(106, 106, 197);
+}
+footer{
+    display: block;
+    margin: auto;
+    height: 130px;
+    width: 940px;
+}
+#ifcontacto{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+#powered{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+h1{
+    color: aqua;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left:10px ;
+}
+#proyectos 
+{
+display: block;
+margin: auto;
+float: left;
+width: 320px;
+}
+#proyectos p
+{
+width: 300px;
+text-align: justify;
+}
+#imgproyectos
+{
+display: block;
+float: right;
+margin-top:10px ;
+margin-right:10px ;
+width: 358px;
+}
+.proyectosm
+{
+    display: inline-block;
+    width: 230px;
+}
+.proyectosm p
+{
+    width: 210px;
+}
+.proyectosm h6
+{
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    background: rgb(172, 172, 235);
+}
+
+.datacontacto p{
+    padding:0px;
+    margin: 10px;
+    width: 675px;
+}
+form{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 565px;
+}
+label{
+    color: rgb(166, 166, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+input{
+    width: 480px;
+    height: 20px;
+    border: 2px solid rgb(104, 104, 177);
+    margin-top: 5px;
+    font-size: 14px;
+}
+textarea{
+    width: 480px;
+    height: 142px;
+    border: 2px solid rgb(146, 146, 218);
+    margin-top: 5px;
+    font-size: 14px;
+}
+#boton{
+    background: rgb(88, 88, 112);
+    border-color: rgb(75, 75, 124);
+    border-radius: 5px;
+    height: 31px;
+    width: 91px;
+}
+  
